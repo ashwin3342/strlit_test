@@ -18,10 +18,11 @@ with cols1:
 with cols2:
     st.write("## Rajkiya Engineering College Kannauj")
 
-st.title("Polyp Segmentor")
+st.title("Brain Tumor Segmentor")
 st.sidebar.image("./ML_logo.png", width=120)
-st.sidebar.write("### Automatic Polyp Segmentation System using MaS-TransUNet")
-st.sidebar.write("\n**Created By:**  \nAshwini Kumar Upadhyaya  \nPhD Scholar, NIT Patna");
+st.sidebar.write("### Automatic Brain Tumor Segmentation System")
+st.sidebar.write("\n**Created By:**  \nAshwini Kumar Upadhyaya  \nPhD Scholar, NIT Patna")
+st.sidebar.write("\n**Guided By:**  \nDr. Ashish Kumar Bhandari  \nAssistant Professor, NIT Patna");
 #st.sidebar.write("\n\n\n**Project By:**  \nShivam Singh(54)  \nDeependu Mishra(28)  \nSudhir Tiwari(59)  \nAshish Yadav(23)  \nNitesh Kumar(39)")
 
 def parse_args():
